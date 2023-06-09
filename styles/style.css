@@ -92,6 +92,12 @@ body {
     background-color: #FEFDFD;
 }
 
+.apresentacao__links__linkedin:active {
+    color: #656A60;
+    border-color: #B7BDB1;
+    background-color: #ECEEE5;
+}
+
 .apresentacao__links__email {
     display: flex;
     justify-content: center;
@@ -111,6 +117,12 @@ body {
     color: #656A60;
     border-color: #B7BDB1;
     background-color: #FEFDFD;
+}
+
+.apresentacao__links__email:active {
+    color: #656A60;
+    border-color: #B7BDB1;
+    background-color: #ECEEE5;
 }
 
 .apresentacao__imagem {
