@@ -2,7 +2,7 @@
 
 # O que é?
 
-Projeto de portfólio desenvolvido como entregável para o Plano de Desenvolvimento Individual do 2º Trimestre de 2023.
+Projeto de portfólio desenvolvido como entregável para o Plano de Desenvolvimento Individual do 2º TRI de 2023.
 
 ## Como foi desenvolvido?
 
