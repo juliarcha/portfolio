@@ -15,4 +15,4 @@ Para construir o projeto, foram realizados os seguintes cursos da plataforma Alu
 
 ## O que foi desenvolvido?
 
-Além dos elementos base de arquivos HTML e CSS, como a atribuição de classes e a estilização de botões, por exemplo, foi trabalhada a responsividade da página, pensando no acesso do endereço por dispositivos de dimensões diferentes e a acessibilidade para pessoas que necessitam ampliar a fonte para melhor visualização.
+Além dos elementos base de arquivos **HTML** e **CSS**, como a atribuição de classes, o uso de *flexbox* e a estilização de botões, por exemplo, foi trabalhada a **responsividade** da página, pensando no acesso do endereço por dispositivos de dimensões diferentes e a acessibilidade para pessoas que necessitam ampliar a fonte para melhor visualização.
