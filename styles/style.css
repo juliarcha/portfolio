@@ -32,6 +32,10 @@ body {
     color: #CAD4C0;
 }
 
+.cabecalho__menu__link:active {
+    color:#99887a
+}
+
 .apresentacao {
     padding: 5% 15%;
     display: flex;
