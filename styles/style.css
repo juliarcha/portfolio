@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600&family=Libre+Caslon+Display&family=Montserrat:wght@100&family=Sansita&display=swap');
 
+:root {
+    --cor-de-fundo: #823736;
+    --cor-de-fundo-secundaria: #7C8177;
+    --branco-principal: #FEFDFD;
+    --branco-puro: #FFFFFF;
+    --cabecalho-hover: #CAD4C0;
+    --cabecalho-active: #99887A;
+    --texto-destaque: #EDECE4;
+    --marrom: #53473D;
+    --marrom-secundario: #656A60;
+    --bege-medio: #B7BDB1;
+    --bege-claro: #ECEEE5;
+    --fonte-titulo: 'Bodoni Moda';
+    --fonte-primaria: 'Libre Caslon Display';
+    --fonte-secundaria: 'Sansita';
+    --fonte-terciaria: 'Montserrat';
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +25,8 @@
 
 body {
     box-sizing: border-box;
-    background-color: #823736;
-    color: #FEFDFD;
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
 }
 
 .cabecalho {
@@ -21,19 +39,19 @@ body {
 }
 
 .cabecalho__menu__link {
-    font-family: 'Sansita', sans-serif;
+    font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 500;
-    color: #FFFFFF;
+    color: var(--branco-puro);
     text-decoration: none;
 }
 
 .cabecalho__menu__link:hover {
-    color: #CAD4C0;
+    color: var(--cabecalho-hover);
 }
 
 .cabecalho__menu__link:active {
-    color:#99887a
+    color: var(--cabecalho-active);
 }
 
 .apresentacao {
@@ -53,16 +71,16 @@ body {
 
 .apresentacao__conteudo__titulo {
     font-size: 5.75rem;
-    font-family: 'Bodoni Moda', serif;
+    font-family: var(--fonte-titulo);
 }
 
 .apresentacao__conteudo__texto {
     font-size: 1.5rem;
-    font-family: 'Libre Caslon Display', serif;
+    font-family: var(--fonte-primaria);
 }
 
 .apresentacao__conteudo__destaque {
-    color: #EDECE4;
+    color: var(--texto-destaque);
 }
 
 .apresentacao__links {
@@ -74,55 +92,55 @@ body {
     display: flex;
     justify-content: center;
     gap: 10px;
-    background-color: #53473D;
-    border: 7px solid #FEFDFD;
+    background-color: var(--marrom);
+    border: 7px solid var(--branco-principal);
     border-radius: 70px;
     width: 45%;
     text-align: center;
     font-size: 2.25rem;
-    font-family: 'Sansita', sans-serif;
-    color: #FFFFFF;
+    font-family: var(--fonte-secundaria);
+    color: var(--branco-puro);
     padding: 30px 0;
     text-decoration: none;
 }
 
 .apresentacao__links__linkedin:hover {
-    color: #656A60;
-    border-color: #B7BDB1;
-    background-color: #FEFDFD;
+    color: var(--marrom-secundario);
+    border-color: var(--bege-medio);
+    background-color: var(--branco-principal);
 }
 
 .apresentacao__links__linkedin:active {
-    color: #656A60;
-    border-color: #B7BDB1;
-    background-color: #ECEEE5;
+    color: var(--marrom-secundario);
+    border-color: var(--bege-medio);
+    background-color: var(--bege-claro);
 }
 
 .apresentacao__links__email {
     display: flex;
     justify-content: center;
-    background-color: #656A60;
-    border: 7px solid #FEFDFD;
+    background-color: var(--marrom-secundario);
+    border: 7px solid var(--branco-principal);
     border-radius: 70px;
     width: 45%;
     text-align: center;
     font-size: 2.25rem;
-    font-family: 'Sansita', sans-serif;
-    color: #FFFFFF;
+    font-family: var(--fonte-secundaria);
+    color: var(--branco-puro);
     padding: 30px 0;
     text-decoration: none;
 }
 
 .apresentacao__links__email:hover {
-    color: #656A60;
-    border-color: #B7BDB1;
-    background-color: #FEFDFD;
+    color: var(--marrom-secundario);
+    border-color: var(--bege-medio);
+    background-color: var(--branco-principal);
 }
 
 .apresentacao__links__email:active {
-    color: #656A60;
-    border-color: #B7BDB1;
-    background-color: #ECEEE5;
+    color: var(--marrom-secundario);
+    border-color: var(--bege-medio);
+    background-color: var(--bege-claro);
 }
 
 .apresentacao__imagem {
@@ -131,10 +149,10 @@ body {
 
 .rodape {
     padding: 24px;
-    color: #FEFDFD;
-    background-color: #7C8177;
+    color: var(--branco-principal);
+    background-color: var(--cor-de-fundo-secundaria);
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-terciaria);
     font-size: 1.25rem;
 }
 
